@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    --Pale_blue: hsl(225, 100%, 94%);
+    --Bright_blue: rgb(56, 41, 224);
+    --Very_pale_blue: hsl(225, 100%, 98%);
+    --Destructed_blue: hsl(224, 23%, 55%);
+    --Dark_blue: hsl(223, 47%, 23%);
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-image: url(./images/pattern-background-desktop.svg), linear-gradient(#d6e1ff57, #d6e1ff8f);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    background-blend-mode: overlay;
+}
+
+main{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 50rem;
+     width: 100%;
+}
+
+
+.container{
+     background-color: white;
+     width:25rem;
+     height: auto;
+     border-radius: 1.25rem;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.img img
+{
+     border-radius: 1.25rem 1.25rem 0 0;
+}
+.img{
+     margin-bottom: 2.2rem;
+}
+
+.first_content{
+    padding: 0 4.43rem 0 4.43rem;
+    text-align: center;
+  
+}
+
+.first_content h1{
+     font-size: 1.625rem;
+     font-weight: 900;
+     text-align: center;
+     color: var(--Dark_blue);
+     margin-bottom: 1.25rem;
+}
+
+.first_content p{
+    font-size: 1rem;
+    color: var(--Destructed_blue);
+    letter-spacing: -0.12px;
+    margin-bottom: 1.25rem;
+}
+
+.second_content{
+     padding: 0 2.5rem 0 2.5rem;
+}
+
+.flex_2{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.price_btn{
+    background-color: var(--Very_pale_blue);
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+
+.music_btn{
+     margin-right: 1rem;
+}
+
+.annual_price{
+     color: var(--Dark_blue);
+     margin-bottom: 0.3rem;
+}
+
+.price{
+     color: var(--Destructed_blue);
+}
+
+.change{
+     color: var(--Bright_blue);
+     text-decoration: underline;
+     font-weight: 600;
+     transition: all ease-in-out 250ms;
+     cursor: pointer;
+}
+
+.change:hover{
+    text-decoration: none;
+}
+
+
+.payment_btn{
+     border: none;
+     background: var(--Bright_blue);
+     color: white;
+     text-align: center;
+     font-weight: 700;
+     font-size: 1rem;
+     width: 100%;
+     padding: 1rem;
+     border-radius: 0.70rem;
+     margin-bottom: 1rem;
+     cursor: pointer;
+     transition: all ease-in-out 250ms;
+}
+.payment_btn:hover{
+     box-shadow: rgba(56, 41, 224, 0.5) 0px 10px 50px;
+}
+
+.order_button{
+    text-align: center;
+     font-weight: 700;
+    width: 100%;
+     padding: 1rem;
+     border-radius: 0.70rem;
+     margin-bottom: 1rem;
+     border: none;
+     background:transparent;
+     font-size: 1rem;
+     color: var(--Destructed_blue);
+     cursor: pointer;
+     transition: all ease-in-out 250ms;
+}
+
+.order_button:hover{
+      color: var(--Dark_blue);
+}
+
+
+/* Define breakpoints using media queries */
+@media screen and (max-width: 576px) {
+       main{
+         width: 85%;
+         margin: 0 auto;
+         height: 100vh;
+       }
+       body{
+          background-image: url(./images/pattern-background-mobile.svg,),linear-gradient(
+            #d6e1ff, #d9e0fc);
+          background-size:cover;
+          background-position: center bottom;
+           
+       }
+  }
