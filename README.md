@@ -4,7 +4,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://github.com/Majharulislam1/frontendmentor_order_summary))
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 
