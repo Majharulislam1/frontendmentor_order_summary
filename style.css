@@ -42,6 +42,7 @@ main{
 .img img
 {
      border-radius: 1.25rem 1.25rem 0 0;
+     width: 100%;
 }
 .img{
      margin-bottom: 2.2rem;
